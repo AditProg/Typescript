@@ -4,6 +4,8 @@ import UserInfo from "./components/UserInfo"
 import AdminInfo from "./components/AdminInfo"
 import type { Info, AdminInfoList } from "./types"
 import Counter from "./components/Counter"
+import TodoList from "./components/TodoList"
+import Form from "./components/Form"
 
 import UserProfile from "./components/UserProfile"
 const App = () => {
@@ -45,7 +47,8 @@ const App = () => {
      
       <Button label="Click me"  onClick={() => console.log("Button clicked!")} disabled={false}   />
    <UserProfile />
-   
+   <TodoList />
+    <Form />
    </div>
   )
 }
