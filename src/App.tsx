@@ -7,7 +7,12 @@ import Counter from "./components/Counter"
 import TodoList from "./components/TodoList"
 import Form from "./components/Form"
 
+
 import UserProfile from "./components/UserProfile"
+import FocusInput from "./components/FocusInput"
+import ContactForm from "./components/ContactForm"
+import Counter1 from "./components/Counter1"
+import Counter3 from "./components/Counter3"
 const App = () => {
 
 
@@ -49,6 +54,11 @@ const App = () => {
    <UserProfile />
    <TodoList />
     <Form />
+    <FocusInput/>
+    <ContactForm />
+    <Counter1/>
+
+    <Counter3/> 
    </div>
   )
 }
